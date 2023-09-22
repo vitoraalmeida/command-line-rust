@@ -1,0 +1,12 @@
+warning: unused variable: `bytes_read`
+   --> src/lib.rs:112:25
+    |
+112 | ...       let bytes_read = handle.read(&m...
+    |               ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_bytes_read`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: `headr` (lib) generated 1 warning (run `cargo fix --lib -p headr` to apply 1 suggestion)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/headr -c 1 cant-touch-this`
+cant-touch-this: Permission denied (os error 13)
