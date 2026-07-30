@@ -80,15 +80,6 @@ $ cargo build --release --manifest-path findr/Cargo.toml
 $ ./findr/target/release/findr . -t f
 ```
 
-O projeto `hello` gera três executáveis: `hello`, `true` e `false`. O exemplo
-isolado da raiz pode ser compilado sem o Cargo:
-
-```console
-$ rustc hello.rs -o hello-bin
-$ ./hello-bin
-Hello, world!
-```
-
 ## Exemplos por ferramenta
 
 ### `catr`
